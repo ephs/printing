@@ -15,7 +15,7 @@ The driver PPD file is located in this repository, and will show up as 'uniFlowP
 [Follow_Me_EP.ppd](Follow_Me_EP.ppd)
 
 ### Configuration in CUPS
-Navigate to the web interface (https://localhost:631). Click 'Add Printer' (under Printers). If the site asks for a username/password, enter in your local account Username/Password (make sure you are an administrator). 
+Navigate to the web interface (http://localhost:631). Click 'Add Printer' (under Printers). If the site asks for a username/password, enter in your local account Username/Password (make sure you are an administrator). 
 
 In the connection prompt at the next screen, type/paste in the printer URI, with your STUDENTID (ex: `90301234`) before the '@,' like so:
 `lpd://STUDENTID@EPVWINRPS.ad.edenpr.org/Follow-Me`
