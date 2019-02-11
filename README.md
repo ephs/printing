@@ -17,12 +17,24 @@ The driver PPD file is located in this repository, and will show up as 'uniFlowP
 ### Configuration in CUPS
 Navigate to the web interface (http://localhost:631). Click 'Add Printer' (under Printers). If the site asks for a username/password, enter in your local account Username/Password (make sure you are an administrator). 
 
+![cups1.png](images/cups1.png)
+
+Choose the LPD/LPR Host or printer option when prompted.
+
+![cups2.png](images/cups2.png)
+
 In the connection prompt at the next screen, type/paste in the printer URI, with your STUDENTID (ex: `90301234`) before the '@,' like so:
 `lpd://STUDENTID@EPVWINRPS.ad.edenpr.org/Follow-Me`
 
+![cups3.png](images/cups3.png)
+
 For the name/description/location, you may choose what you would like to call the printer. The standard name is `Follow_Me_EP.` You do not need to share the printer. 
 
+![cups4.png](images/cups4.png)
+
 The next screen will ask you to select the make/model or provide a PPD file. Download the [Follow_Me_EP.ppd](Follow_Me_EP.ppd) file from this repository, and click browse to navigate and USE the downloaded file. Click 'Add Printer.'
+
+![cups5.png](images/cups5.png)
 
 Your printer should now be set up. You can use CUPS to print a test page. Make sure to use your STUDENTID like normal to sign in to the printer. 
 
